@@ -23,7 +23,7 @@ jobs:
             --resource-group "$CLASS_RG" \
             --template-file main.bicep \
             --parameters \
-              storageName=sthyfyourname \
+              storageName=sthyfbader \
               dbAdminPassword=not-a-real-secret
 
   deploy:
